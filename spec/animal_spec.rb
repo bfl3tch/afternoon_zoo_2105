@@ -17,7 +17,7 @@ RSpec.describe Animal do
   it 'has a weight' do
     animal = Animal.new("Sea Otter", 10, 25)
 
-    expect(animal.weight).to eq("10 pounds")
+    expect(animal.weight).to eq(10)
   end
 
   it 'has an age' do
